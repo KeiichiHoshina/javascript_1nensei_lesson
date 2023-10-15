@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>ミュージックプレーヤー</title>
+    <link rel="stylesheet" href="/common/css/mplayer.css">
+    <script src="/common/js/mplayer.js" defer></script>
+  </head>
+  <body>
+    <div class="appframe">
+      <h1>ミュージックプレーヤー</h1>
+      <img id="pictImg" src="/img/pict_stop.png" alt="再生状態を表す画像">
+      <audio src="/bgm/bgm1.mp3" controls></audio>
+      <p>聞きたい曲を選んでね！<a id="random" href="#">ランダム</a></p>
+      <ul>
+        <li class="music-item active" data-file="/bgm/bgm1.mp3">ミュージック1</li>
+        <li class="music-item" data-file="/bgm/bgm2.mp3">ミュージック2</li>
+        <li class="music-item" data-file="/bgm/bgm3.mp3">ミュージック3</li>
+        <li class="music-item" data-file="/bgm/bgm4.mp3">ミュージック4</li>
+        <li class="music-item" data-file="/bgm/bgm5.mp3">ミュージック5</li>
+        <li class="music-item" data-file="/bgm/bgm6.mp3">ミュージック6</li>
+      </ul>
+    </div>
+  </body>
+</html>
